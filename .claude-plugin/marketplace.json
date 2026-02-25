@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dgs-plugins",
+  "description": "Collection of plugins for code quality and project automation",
+  "owner": {
+    "name": "daegunjhy",
+    "email": "jhy@daegunsoft.com"
+  },
+  "plugins": [
+    {
+      "name": "agentify",
+      "description": "Claude Code automation toolkit including agentify (convert workflows to agents/skills), skill-manager (create Skills), and next-action (suggest follow-up tasks)",
+      "version": "0.1.0",
+      "author": {
+        "name": "daegunjhy",
+        "email": "jhy@daegunsoft.com"
+      },
+      "source": "./plugins/agentify",
+      "category": "productivity",
+      "homepage": "https://github.com/daegunjhy/claude-plugins/tree/main/plugins/agentify"
+    },
+    {
+      "name": "code-quality",
+      "description": "Code review and commit management tools including automated PR review and commit splitting strategies",
+      "version": "0.1.0",
+      "author": {
+        "name": "daegunjhy",
+        "email": "jhy@daegunsoft.com"
+      },
+      "source": "./plugins/code-quality",
+      "category": "productivity",
+      "homepage": "https://github.com/daegunjhy/claude-plugins/tree/main/plugins/code-quality"
+    }
+  ]
+}
